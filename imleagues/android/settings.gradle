@@ -1,3 +1,4 @@
 rootProject.name = 'imleagues'
-
+include ':react-native-myLib'
+project(':react-native-myLib').projectDir = new File(rootProject.projectDir, '../src/node_modules/react-native-myLib/android')
 include ':app'
