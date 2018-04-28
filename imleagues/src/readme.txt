@@ -6,5 +6,4 @@ Note that you may want to install extension for visual code like ESLint and Reac
 
 2. Error:Execution failed for task ':app:processDebugResources'. > java.io.IOException: Could not delete folder “” in android studio
     Try the following: 
-        cd android && gradlew clean
-        cd .. && react-native run-android   
+    cd android && gradlew clean && cd .. && react-native run-android   
